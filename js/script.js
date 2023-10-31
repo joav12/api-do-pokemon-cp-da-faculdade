@@ -70,11 +70,11 @@ button_create.addEventListener('click', ()=>{
 })
 
 button_back.addEventListener('click', ()=>{
-    button_back.style.display = "block"
+    button_back.style.display = "auto"
     number--
     
     if (number>=1){
-        button_back.style.display = "block"
+        button_back.style.display = "auto"
     }else{
         button_back.style.display = "none"
     }

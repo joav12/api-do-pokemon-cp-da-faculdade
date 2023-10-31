@@ -1,0 +1,70 @@
+/* Reset de estilos padrão do navegador */
+body,
+button,
+h3,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+/* Estilo dos botões */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Estilo dos botões quando passa o mouse sobre eles */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo dos títulos (h3) */
+h3 {
+  margin: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Estilo da imagem do Pokémon */
+#poke_img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+/* Estilo para o ID do Pokémon */
+#poke_id {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Estilo para o nome do Pokémon */
+#poke_nome {
+  font-size: 28px;
+  color: #007bff;
+}
+
+/* Estilo para o primeiro tipo do Pokémon */
+#poke_primeiro_tipo {
+  font-size: 18px;
+  color: #555;
+}
